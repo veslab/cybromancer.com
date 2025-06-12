@@ -536,8 +536,8 @@
       line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
-  .lg\:block {
-    @media (width >= 64rem) {
+  .md\:block {
+    @media (width >= 48rem) {
       display: block;
     }
   }
