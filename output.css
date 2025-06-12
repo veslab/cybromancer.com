@@ -287,9 +287,6 @@
   .max-w-xl {
     max-width: var(--container-xl);
   }
-  .min-w-\[320px\] {
-    min-width: 320px;
-  }
   .min-w-sm {
     min-width: var(--container-sm);
   }
@@ -348,6 +345,9 @@
   }
   .overflow-hidden {
     overflow: hidden;
+  }
+  .overflow-scroll {
+    overflow: scroll;
   }
   .overflow-y-auto {
     overflow-y: auto;
@@ -536,8 +536,8 @@
       line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
-  .md\:block {
-    @media (width >= 48rem) {
+  .lg\:block {
+    @media (width >= 64rem) {
       display: block;
     }
   }
