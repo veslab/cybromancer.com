@@ -10,8 +10,7 @@
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-indigo-500: oklch(58.5% 0.233 277.117);
-    --color-indigo-700: oklch(45.7% 0.24 277.023);
-    --color-indigo-900: oklch(35.9% 0.144 278.697);
+    --color-indigo-800: oklch(39.8% 0.195 277.366);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
@@ -23,6 +22,7 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-sm: 24rem;
     --container-md: 28rem;
     --container-xl: 36rem;
     --text-base: 1rem;
@@ -194,9 +194,6 @@
   }
 }
 @layer utilities {
-  .fixed {
-    position: fixed;
-  }
   .static {
     position: static;
   }
@@ -211,9 +208,6 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
-  }
-  .left-64 {
-    left: calc(var(--spacing) * 64);
   }
   .z-10 {
     z-index: 10;
@@ -239,9 +233,6 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -260,14 +251,14 @@
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
   }
-  .ml-64 {
-    margin-left: calc(var(--spacing) * 64);
-  }
   .block {
     display: block;
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .h-16 {
     height: calc(var(--spacing) * 16);
@@ -295,6 +286,12 @@
   }
   .max-w-xl {
     max-width: var(--container-xl);
+  }
+  .min-w-\[320px\] {
+    min-width: 320px;
+  }
+  .min-w-sm {
+    min-width: var(--container-sm);
   }
   .flex-1 {
     flex: 1;
@@ -506,10 +503,10 @@
       }
     }
   }
-  .hover\:text-indigo-700 {
+  .hover\:text-indigo-800 {
     &:hover {
       @media (hover: hover) {
-        color: var(--color-indigo-700);
+        color: var(--color-indigo-800);
       }
     }
   }
@@ -537,6 +534,11 @@
     @media (width >= 40rem) {
       font-size: var(--text-base);
       line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
     }
   }
 }
