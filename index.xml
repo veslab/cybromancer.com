@@ -15,5 +15,12 @@
       <guid>https://cybromancer.com/about-me/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Resume</title>
+      <link>https://cybromancer.com/resume/</link>
+      <pubDate>Fri, 13 Jun 2025 09:00:23 -0500</pubDate>
+      <guid>https://cybromancer.com/resume/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
