@@ -1,1 +1,60 @@
 @import "tailwindcss";
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 2em;
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.75em;
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1.5em;
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+h6 {
+  font-size: 1.25em;
+  margin-bottom: .6em;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+blockquote > p {
+  margin: 0px;
+
+}
+
+blockquote {
+  background: #424242;
+  border-left: 10px solid #ccc;
+  margin: 1.5em;
+  padding: 0.5em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+pre {
+  word-wrap: normal;
+  overflow-x: auto;
+  white-space: pre;
+  max-width: 99vw;
+  margin-bottom: 1em;
+}
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #424242;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}

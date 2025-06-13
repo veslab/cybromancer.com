@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cybromancer.com/about-me/</loc>
-    <lastmod>2025-06-13T09:14:01-05:00</lastmod>
+    <loc>https://cybromancer.com/blog/building-a-hugo-site/</loc>
+    <lastmod>2025-06-13T11:46:17-05:00</lastmod>
   </url><url>
     <loc>https://cybromancer.com/</loc>
+    <lastmod>2025-06-13T11:46:17-05:00</lastmod>
+  </url><url>
+    <loc>https://cybromancer.com/blog/</loc>
+    <lastmod>2025-06-13T10:37:28-05:00</lastmod>
+  </url><url>
+    <loc>https://cybromancer.com/about-me/</loc>
     <lastmod>2025-06-13T09:14:01-05:00</lastmod>
   </url><url>
     <loc>https://cybromancer.com/resume/</loc>
     <lastmod>2025-06-13T09:00:23-05:00</lastmod>
-  </url><url>
-    <loc>https://cybromancer.com/posts/</loc>
-    <lastmod>2025-06-13T07:30:59-05:00</lastmod>
   </url><url>
     <loc>https://cybromancer.com/categories/</loc>
   </url><url>

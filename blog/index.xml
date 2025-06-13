@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio</title>
-    <link>https://cybromancer.com/</link>
-    <description>Recent content on Portfolio</description>
+    <title>Blog on Portfolio</title>
+    <link>https://cybromancer.com/blog/</link>
+    <description>Recent content in Blog on Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jun 2025 11:46:17 -0500</lastBuildDate>
-    <atom:link href="https://cybromancer.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cybromancer.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to build a static website with Hugo Tailwindcss and Github Pages</title>
       <link>https://cybromancer.com/blog/building-a-hugo-site/</link>
       <pubDate>Fri, 13 Jun 2025 11:46:17 -0500</pubDate>
       <guid>https://cybromancer.com/blog/building-a-hugo-site/</guid>
       <description>&lt;h2 id=&#34;hugo--tailwindcss--github-pages-&#34;&gt;Hugo + TailwindCSS + Github Pages 🚀&lt;/h2&gt;&#xA;&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>https://cybromancer.com/about-me/</link>
-      <pubDate>Fri, 13 Jun 2025 09:14:01 -0500</pubDate>
-      <guid>https://cybromancer.com/about-me/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>https://cybromancer.com/resume/</link>
-      <pubDate>Fri, 13 Jun 2025 09:00:23 -0500</pubDate>
-      <guid>https://cybromancer.com/resume/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
