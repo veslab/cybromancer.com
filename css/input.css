@@ -58,3 +58,13 @@ td > code {
   padding: .1rem .3rem .2rem;
   border-radius: .2rem;
 }
+
+p > a {
+  color: rgb(156 163 175);
+}
+
+
+p > a:hover {
+  color: #4d4945;
+  text-decoration: underline;
+}
