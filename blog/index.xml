@@ -6,7 +6,21 @@
     <description>Recent content in Blog on Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 17:54:39 -0500</lastBuildDate>
     <atom:link href="https://cybromancer.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimism of Intermediates</title>
+      <link>https://cybromancer.com/blog/optimism-of-intermediates/</link>
+      <pubDate>Sun, 20 Jul 2025 17:54:39 -0500</pubDate>
+      <guid>https://cybromancer.com/blog/optimism-of-intermediates/</guid>
+      <description>&lt;p&gt;My qualifications are nothing spectacular. I am a consultant who&amp;rsquo;s focuses are&#xA;on the&#xA;fortune 200 industry and provides professional services on a select set of&#xA;technologies. I have a deep passion for software, specifically, open source&#xA;software that I devote many hours too, outside of my 9-5. I have come across&#xA;an issue that troubles me amongst senior engineers that I hope to change in&#xA;people I get the opportunity to come in contact with. That issue is the&#xA;pessimism of Veterans in the field of technologies that they begrudgingly have to&#xA;work with.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build a static website with Hugo, TailWind and Github Pages</title>
+      <link>https://cybromancer.com/blog/building-a-hugo-site/</link>
+      <pubDate>Fri, 13 Jun 2025 11:46:17 -0500</pubDate>
+      <guid>https://cybromancer.com/blog/building-a-hugo-site/</guid>
+      <description>&lt;h2 id=&#34;the-stack&#34;&gt;The Stack&lt;/h2&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t care about the reasoning behind the stack skip to &lt;a href=&#34;#getting-started&#34;&gt;Getting&#xA;Started&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The purpose of the website was for a place I could host my resume, display&#xA;some of my interest and share some of the knowledge I&amp;rsquo;ve gained. After all, I&amp;rsquo;ve&#xA;benefited a ton from different blog post so I thought I might try and&#xA;contribute.&lt;/p&gt;&#xA;&lt;p&gt;I currently take all of my notes in markdown and didn&amp;rsquo;t want to be translating&#xA;those notes to HTML myself. The two big projects for SSG&#xA;&lt;em&gt;(Static Site Generation)&lt;/em&gt; are Jekyll and Hugo. I chose Hugo simply because&#xA;I knew the Go HTML template format.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

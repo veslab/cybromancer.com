@@ -3,21 +3,52 @@
   <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>How to build a static website with Hugo Tailwindcss and Github Pages</title>
+  <title>How to build a static website with Hugo, TailWind and Github Pages</title>
   <link href="/css/output.css" rel="stylesheet">
 </head>
 
 <body class="flex justify-center h-screen bg-gray-800 p-0">
   
+  <a id="top"></a>
   <div class="max-w-screen text-gray-200 p-8">
   <div class="flex flex-col justify-items-center max-w-4xl">
-    <h1 class="text-6xl font-bold tracking-wide leading-18 border-solid border-b pb-8 mb-8" >How to build a static website with Hugo Tailwindcss and Github Pages</h1>
-      <h2 id="hugo--tailwindcss--github-pages-">Hugo + TailwindCSS + Github Pages 🚀</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<h3 id="header-3">Header 3</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <code>itty bitty code span</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>python3 make_it_work.py
-</span></span></code></pre></div>
+    <div class="flex flex-row justify-between border-solid border-b pb-2 mb-2">
+      <a href="/" class="text-lg px-4 py-2 text-gray-400 hover:text-white hover:bg-gray-700 rounded transition">Home</a>
+      <a href="/blog" class="text-lg px-4 py-2 text-gray-400 hover:text-white hover:bg-gray-700 rounded transition">Blog</a>
+    </div>
+    <div class="border-solid border-b border-gray-600 mb-8">
+      <h1 class="text-6xl font-bold tracking-wide leading-18 text-balance" >How to build a static website with Hugo, TailWind and Github Pages</h1>
+      <p class="mt-8"> Jun 13, 2025 </p>
+    </div>
+      <h2 id="the-stack">The Stack</h2>
+<p>If you don&rsquo;t care about the reasoning behind the stack skip to <a href="#getting-started">Getting
+Started</a>.</p>
+<p>The purpose of the website was for a place I could host my resume, display
+some of my interest and share some of the knowledge I&rsquo;ve gained. After all, I&rsquo;ve
+benefited a ton from different blog post so I thought I might try and
+contribute.</p>
+<p>I currently take all of my notes in markdown and didn&rsquo;t want to be translating
+those notes to HTML myself. The two big projects for SSG
+<em>(Static Site Generation)</em> are Jekyll and Hugo. I chose Hugo simply because
+I knew the Go HTML template format.</p>
+<p>As for TailWindCSS I personally enjoy getting to style and build my website all
+in the same file. <em>(Though we can&rsquo;t use tailwind to style the &ldquo;generated&rdquo;
+content you see here. We have to use plain old CSS for that.)</em></p>
+<p>Lastly the decision for GitHub pages came down to ease of use. I originally
+was going to host this from my home lab with a custom Zig web server running in
+Kubernetes. This approach would force me to open my home lab to the Public
+Internet and I wouldn&rsquo;t get the benefit of GitHub&rsquo;s CDN <em>(Content Delivery
+Network)</em>. The logical choice was the free and easy option of GitHub Pages.</p>
+<h3 id="getting-started">Getting Started</h3>
+<h4 id="install-hugo-and-create-a-new-site">Install Hugo And Create A New Site</h4>
+<h4 id="install-tailwind">Install tailwind</h4>
+<h4 id="setup-tailwind-post-css">Setup Tailwind Post CSS</h4>
+<h4 id="walk-through-layouts">Walk Through Layouts</h4>
+<h4 id="walk-through-github-pages">Walk Through GitHub Pages</h4>
+
+    <div class="border-solid border-t pt-4 mt-2 text-center">
+      <a href="#top" class="text-lg px-4 py-2 text-gray-400 hover:text-white hover:bg-gray-700 rounded transition">back to top</a>
+    </div>
   </div>
 </div>
 
